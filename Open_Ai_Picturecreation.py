@@ -4,13 +4,6 @@ import webbrowser
 API_KEY = "Your API KEY"
 
 
-HEADERS = {
-
-    'Authorization': f'Bearer Authorization: Bearer {API_KEY}'
-
-}
-
-
 openai.api_key = API_KEY
 
 response = openai.Image.create(
